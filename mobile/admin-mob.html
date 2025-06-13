@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="admin-mob.css">
+</head>
+<body>
+    <h3> CREATE PRODUCT</h3>
+    <div >
+       <form action="" class="createElement">
+        <input type="text" placeholder="Product-name" id="productName" required>
+        <select name="" id="productCategory">
+            <option value="" disabled selected>Select Category</option>
+            <option value="Beef">Beef</option>
+            <option value="Pasta">Pasta</option>
+            <option value="Chicken">Chicken</option>
+            <option value="Food&Salads">Salads</option>
+            <option value="Soups">Soups</option>
+        </select>
+        <input type="text" placeholder="Rating" id="productRating" required>
+        <input type="text" placeholder="Src of image" id="productImage" required>
+        <button onclick="addItems()">Send</button>
+       </form>
+    </div>
+    
+    <script src="category.js"></script>
+</body>
+</html>
